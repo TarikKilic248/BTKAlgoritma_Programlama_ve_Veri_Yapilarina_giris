@@ -6,31 +6,26 @@ public class Program
     {
         Console.WriteLine("Hello World");
 
-        OgretimElemani ogrGor = new OgretimElemani();
-        Console.WriteLine(ogrGor);
-    }
+        //Array Dizi tanımı
+        int[] sayilar = new int[] { 1, 3, 5, 7, 9 };
+        //Alternatif
+        var sayilar2 = Array.CreateInstance(typeof(int), 5);
+        sayilar2.SetValue(0, 0);
+        sayilar2.SetValue(2, 1);
+        sayilar2.SetValue(4, 2);
+        sayilar2.SetValue(6, 3);
+        sayilar2.SetValue(8, 4);
 
-    public class OgretimElemani
-    {
-        //Property - Özellik
-        public int SicilNo { get; set; }
-        public string Adi { get; set; }
-        public string Soyadi { get; set; }
-        public bool Cinsiyet { get; set; }
-
-        //Default Constructor
-        public OgretimElemani()
+        //Dolaşma
+        for (int i = 0; i < sayilar2.Length; i++)
         {
-
+            Console.WriteLine("sayilar[{0}] = {1} - sayilar2[{0}] = {2}",
+                     i, sayilar[i], sayilar2.GetValue(i));
+            //Console.WriteLine($"sayilar[{i}] = " + $"{sayilar[i]} - " +
+            //         $"sayilar2[{i}] = {sayilar2.GetValue(i)}");
         }
 
-        public override string ToString()
-        {
-            return $"{SicilNo,-5}" +
-              $"{Adi,-10}" +
-              $"{Soyadi,-10}" +
-              $"{Cinsiyet,-10}";
-        }
     }
+
 }
 
