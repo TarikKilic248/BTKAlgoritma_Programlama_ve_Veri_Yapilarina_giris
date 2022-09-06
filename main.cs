@@ -5,56 +5,53 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World");
+        Console.WriteLine("Hello World\n");
 
-        //Array Dizi tanımı
-        int[] sayilar = new int[] { 5, 3, 11, 9, 7, 13, 17, 1, 15 };
-        //Alternatif
-        var sayilar2 = Array.CreateInstance(typeof(int), sayilar.Length);
+        //Hashtable tanımlama
+        var sehirler = new Hashtable();
 
-        /*  
-        sayilar2.SetValue(0, 0);
-        sayilar2.SetValue(2, 1);
-        sayilar2.SetValue(4, 2);
-        sayilar2.SetValue(6, 3);
-        sayilar2.SetValue(8, 4);
-        */
+        //Ekleme
+        sehirler.Add(6, "Ankara");
+        sehirler.Add(34, "İstanbul");
+        sehirler.Add(55, "Samsun");
+        sehirler.Add(23, "Elazığ");
 
-        /*
-          for (int i = 0; i <  sayilar.Length; i++)
-          {
-              sayilar2.SetValue(sayilar[i], i);
-          }
-        */
-
-        sayilar.CopyTo(sayilar2, 0);
-
-        //Alternatif
-        var sayilar3 = new ArrayList(sayilar);
-
-        //Sıralama
-        Array.Sort(sayilar);
-        Array.Sort(sayilar2);
-        sayilar3.Sort();
-
-        //Silme
-        Array.Clear(sayilar, 2, 2);
-
-        //Bulma
-        Console.WriteLine(Array.IndexOf(sayilar, 1));
-
-
-        //Array Dizi Dolaşma
-        for (int i = 0; i < sayilar2.Length; i++)
+        //Dolaşma
+        foreach (DictionaryEntry item in sehirler)
         {
-            //Console.WriteLine("sayilar[{0}] = {1} - sayilar2[{0}] = {2}",
-            //         i, sayilar[i], sayilar2.GetValue(i));
-            Console.WriteLine($"sayilar[{i}] = " + $"{sayilar[i],3}  -  " +
-                       $"sayilar2[{i}] = {sayilar2.GetValue(i),3}  -  " +
-                       $"sayilar3[{i}] = " + $"{sayilar3[i],3}");
+            Console.WriteLine($"{item.Key,-5}" + $" - {item.Value,-20}");
+        }
+
+        //Anahtarları alma
+        Console.WriteLine("\nAnahtarlar (keys)");
+        var anahtarlar = sehirler.Keys;
+        foreach (var item in anahtarlar)
+        {
+            Console.WriteLine(item);
+        }
+
+        //Değerler
+        Console.WriteLine("\nDeğerler (Values)");
+        ICollection degerler = sehirler.Values;
+
+        foreach (var item in degerler)
+        {
+            Console.WriteLine(item);
+        }
+
+        //Elemana erişme
+        Console.WriteLine("\nElemana erişme");
+        Console.WriteLine(sehirler[55]);
+
+        //Eleman silme
+        Console.WriteLine("Eleman silme\n");
+        sehirler.Remove(23);
+
+        foreach (DictionaryEntry item in sehirler)
+        {
+            Console.WriteLine($"{item.Key,-5}" + $" - {item.Value,-20}");
         }
 
     }
-
 }
 
