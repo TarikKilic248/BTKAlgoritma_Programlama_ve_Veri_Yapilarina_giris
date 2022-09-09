@@ -28,18 +28,33 @@
 /home/runner/BTKProgramlamayaGiris/obj/Debug/netcoreapp6.0/ref/main.dll
 /home/runner/BTKProgramlamayaGiris/obj/Debug/netcoreapp6.0/main.pdb
 /home/runner/BTKProgramlamayaGiris/obj/Debug/netcoreapp6.0/main.genruntimeconfig.cache
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\bin\Debug\netcoreapp6.0\main.exe
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\bin\Debug\netcoreapp6.0\main.deps.json
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\bin\Debug\netcoreapp6.0\main.runtimeconfig.json
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\bin\Debug\netcoreapp6.0\main.dll
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\bin\Debug\netcoreapp6.0\main.pdb
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.csproj.AssemblyReference.cache
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.AssemblyInfoInputs.cache
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.AssemblyInfo.cs
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.csproj.CoreCompileInputs.cache
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.dll
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\refint\main.dll
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.pdb
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\main.genruntimeconfig.cache
-C:\Users\Levono LEGION 5\Documents\GitHub\BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris\obj\Debug\netcoreapp6.0\ref\main.dll
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/bin/Debug/netcoreapp6.0/main.exe
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/bin/Debug/netcoreapp6.0/main.deps.json
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/bin/Debug/netcoreapp6.0/main.runtimeconfig.json
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/bin/Debug/netcoreapp6.0/main.dll
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/bin/Debug/netcoreapp6.0/main.pdb
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.csproj.AssemblyReference.cache
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.AssemblyInfoInputs.cache
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.AssemblyInfo.cs
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.csproj.CoreCompileInputs.cache
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.dll
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/refint/main.dll
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.pdb
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/main.genruntimeconfig.cache
+C:/Users/Levono LEGION 5/Documents/GitHub/BTKAlgoritma_Programlama_ve_Veri_Yapilarina_giris/obj/Debug/netcoreapp6.0/ref/main.dll
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/bin/Debug/netcoreapp6.0/main
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/bin/Debug/netcoreapp6.0/main.deps.json
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/bin/Debug/netcoreapp6.0/main.runtimeconfig.json
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/bin/Debug/netcoreapp6.0/main.dll
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/bin/Debug/netcoreapp6.0/ref/main.dll
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/bin/Debug/netcoreapp6.0/main.pdb
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.csproj.AssemblyReference.cache
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.AssemblyInfoInputs.cache
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.AssemblyInfo.cs
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.csproj.CoreCompileInputs.cache
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.dll
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/ref/main.dll
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.pdb
+/home/runner/BTKAlgoritmaProgramlamaveVeriYapilarinagiris/obj/Debug/netcoreapp6.0/main.genruntimeconfig.cache

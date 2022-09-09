@@ -1,28 +1,67 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
 public class Program
 {
-    /*
-    public class Araba<T> : IEnumerable<T> // : kalıtımın simgesidir
+
+    //public interface ISehir
+    //{
+    //    void Tanit();
+    //    void NufusBilgisiGetir(int PlakaNo);
+    //}
+
+    public class Sehir : IComparable<Sehir> // : ISehir 
     {
-        public IEnumerator<T> GetEnumerator()
+        public int PlakaNo { get; set; }
+        public string SehirAdi { get; set; }
+
+        public Sehir(int plakaNo, string sehirAdi)
         {
-            throw new NotImplementedException();
+            PlakaNo = plakaNo;
+            SehirAdi = sehirAdi;
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return $"{PlakaNo,-3} - {SehirAdi,-15}";
+        }
+
+        public int CompareTo(Sehir other)
+        {
+            if (this.PlakaNo < other.PlakaNo)
+            {
+                return -1;
+            }
+            else if (this.PlakaNo == other.PlakaNo)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
         }
     }
-    */
 
 
     public static void Main(string[] args)
     {
-      var list = new List<int>();
+        //List
+        var sayilar = new List<int>() { 53, 40, 14, 2, 3, 12, 15 };
+        sayilar.Sort();
+        sayilar.ForEach(s => Console.WriteLine(s));
+        //Sehirler
+        var sehirler = new List<Sehir>()
+      {
+        new Sehir(6,"Ankara"),
+        new Sehir(34,"İstanbul"),
+        new Sehir(55,"Samsun"),
+        new Sehir(23,"Elazığ"),
+        new Sehir(44,"Malatya"),
+      };
+        sehirler.Add(new Sehir(1, "Adana"));
+        sehirler.Sort();
+        sehirler.ForEach(s => Console.WriteLine(s));
     }
 }
 
