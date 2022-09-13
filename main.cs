@@ -5,6 +5,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Hello World.");
+      
         var karakterYigini = new Stack<char>();
 
         for (int i = 65; i <= 90; i++)
