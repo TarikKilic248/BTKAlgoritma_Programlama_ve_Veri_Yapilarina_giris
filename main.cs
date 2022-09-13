@@ -3,65 +3,45 @@ using System.Collections.Generic;
 
 public class Program
 {
-
-    //public interface ISehir
-    //{
-    //    void Tanit();
-    //    void NufusBilgisiGetir(int PlakaNo);
-    //}
-
-    public class Sehir : IComparable<Sehir> // : ISehir 
+    public static void Main(string[] args)
     {
-        public int PlakaNo { get; set; }
-        public string SehirAdi { get; set; }
+        var karakterYigini = new Stack<char>();
 
-        public Sehir(int plakaNo, string sehirAdi)
+        for (int i = 65; i <= 90; i++)
         {
-            PlakaNo = plakaNo;
-            SehirAdi = sehirAdi;
+            karakterYigini.Push((char)i);
+            Console.WriteLine($"{karakterYigini.Peek()} yığına eklendi");
         }
 
-        public override string ToString()
-        {
-            return $"{PlakaNo,-3} - {SehirAdi,-15}";
-        }
+        //Ek bilgi
+        var dizi = karakterYigini.ToArray();
 
-        public int CompareTo(Sehir other)
+        Console.WriteLine("Yığından çıkarma işlemi için bir tuşa basın");
+        Console.ReadKey();
+
+        while (karakterYigini.Count! > 0)
         {
-            if (this.PlakaNo < other.PlakaNo)
-            {
-                return -1;
-            }
-            else if (this.PlakaNo == other.PlakaNo)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1;
-            }
+            Console.WriteLine($"{karakterYigini.Pop()} yığından çıkarıldı");
         }
     }
 
-
-    public static void Main(string[] args)
+    private static void YiginOrnegi()
     {
-        //List
-        var sayilar = new List<int>() { 53, 40, 14, 2, 3, 12, 15 };
-        sayilar.Sort();
-        sayilar.ForEach(s => Console.WriteLine(s));
-        //Sehirler
-        var sehirler = new List<Sehir>()
-      {
-        new Sehir(6,"Ankara"),
-        new Sehir(34,"İstanbul"),
-        new Sehir(55,"Samsun"),
-        new Sehir(23,"Elazığ"),
-        new Sehir(44,"Malatya"),
-      };
-        sehirler.Add(new Sehir(1, "Adana"));
-        sehirler.Sort();
-        sehirler.ForEach(s => Console.WriteLine(s));
+        //Stack Tanımlama
+        var karakterYigini = new Stack<char>();
+
+        //Ekleme
+        karakterYigini.Push('A');
+        Console.WriteLine(karakterYigini.Peek());
+        karakterYigini.Push('B');
+        Console.WriteLine(karakterYigini.Peek());
+        karakterYigini.Push('C');
+        Console.WriteLine(karakterYigini.Peek());
+
+        //Çıkarma
+        Console.WriteLine(karakterYigini.Pop() + " Yığından çıkarıldı.");
+        Console.WriteLine(karakterYigini.Pop() + " Yığından çıkarıldı.");
+        Console.WriteLine(karakterYigini.Pop() + " Yığından çıkarıldı.");
     }
 }
 
