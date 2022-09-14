@@ -5,29 +5,41 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Lütfen bir sayi giriniz");
-        int sayi = Convert.ToInt32(Console.ReadLine());
+        //Queue 
+        //Tanımlama
+        var karakterKuyrugu = new Queue<char>();
 
-        var sayiYigini = new Stack<int>();
+        //Ekleme
+        karakterKuyrugu.Enqueue('a');
+        karakterKuyrugu.Enqueue('e');
+        Console.WriteLine(karakterKuyrugu.Count);
 
-        while (sayi > 0)
+        //Çıkartma
+        Console.WriteLine(karakterKuyrugu.Peek() + " başındaki harf");
+        Console.WriteLine(karakterKuyrugu.Dequeue() + " kuyruktan çıktı");
+        Console.WriteLine(karakterKuyrugu.Peek() + " başındaki harf");
+
+        var sesliHarfler = new List<char>()
+      {
+        'a','e','ı','i','o','ö','u','ü'
+      };
+
+        var kuyruk = new Queue<char>();
+
+        foreach (char k in sesliHarfler)
         {
-            int k = sayi % 10;
-            sayiYigini.Push(k);
-            sayi = sayi / 10;
+            Console.WriteLine();
+            Console.WriteLine($"{k} kuyruğa eklensin mi ? [E/H]");
+            ConsoleKeyInfo secim = Console.ReadKey();
+            Console.WriteLine();
+            if (secim.Key == ConsoleKey.E)
+            {
+                kuyruk.Enqueue(k);
+                Console.WriteLine($"{k} kuyruğa eklendi.");
+                Console.WriteLine("Kuyruktaki eleman sayısı = " + kuyruk.Count);
+            }
         }
-
-        int i = 0;
-        int n = sayiYigini.Count - 1;
-
-        foreach (var s in sayiYigini)
-        {
-            Console.WriteLine($"{s} x {Math.Pow(10, n - i),3} = {s * Math.Pow(10, n - i),3}");
-            i++;
-        }
-
     }
-
 
 }
 
