@@ -5,45 +5,29 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World.");
-      
-        var karakterYigini = new Stack<char>();
+        Console.WriteLine("Lütfen bir sayi giriniz");
+        int sayi = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 65; i <= 90; i++)
+        var sayiYigini = new Stack<int>();
+
+        while (sayi > 0)
         {
-            karakterYigini.Push((char)i);
-            Console.WriteLine($"{karakterYigini.Peek()} yığına eklendi");
+            int k = sayi % 10;
+            sayiYigini.Push(k);
+            sayi = sayi / 10;
         }
 
-        //Ek bilgi
-        var dizi = karakterYigini.ToArray();
+        int i = 0;
+        int n = sayiYigini.Count - 1;
 
-        Console.WriteLine("Yığından çıkarma işlemi için bir tuşa basın");
-        Console.ReadKey();
-
-        while (karakterYigini.Count! > 0)
+        foreach (var s in sayiYigini)
         {
-            Console.WriteLine($"{karakterYigini.Pop()} yığından çıkarıldı");
+            Console.WriteLine($"{s} x {Math.Pow(10, n - i),3} = {s * Math.Pow(10, n - i),3}");
+            i++;
         }
+
     }
 
-    private static void YiginOrnegi()
-    {
-        //Stack Tanımlama
-        var karakterYigini = new Stack<char>();
 
-        //Ekleme
-        karakterYigini.Push('A');
-        Console.WriteLine(karakterYigini.Peek());
-        karakterYigini.Push('B');
-        Console.WriteLine(karakterYigini.Peek());
-        karakterYigini.Push('C');
-        Console.WriteLine(karakterYigini.Peek());
-
-        //Çıkarma
-        Console.WriteLine(karakterYigini.Pop() + " Yığından çıkarıldı.");
-        Console.WriteLine(karakterYigini.Pop() + " Yığından çıkarıldı.");
-        Console.WriteLine(karakterYigini.Pop() + " Yığından çıkarıldı.");
-    }
 }
 
